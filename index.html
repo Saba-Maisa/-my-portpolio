@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/styele.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+ <div class="header-container">
+   <div class="logo">
+      <h1>My Portfolio</h1>
+    </div>
+<div class="nav-list" id="navList">
+    <nav>
+          <ul class="ul-list">
+              <li class="li-list"> <a class="a-list" href="#Portfolio"> <i class="fa fa-home" aria-hidden="true"></i>   Portfolio</a></li>
+              <li class="li-list"><a class="a-list"  href="#About"> <i class="fa fa-user" aria-hidden="true"></i> About</a></li>
+              <li class="li-list"><a class="a-list"  href="#Skills"> <i class="fa fa-laptop" aria-hidden="true"></i>  Skills</a></li>
+          </ul>
+     </nav>
+     
+</div>
+ <div class="header-button">
+        <button type="submit" onclick="myModal()"> contact <i class="fa fa-envelope" aria-hidden="true"></i></button>
+</div>
+<div id="headerBurger" onclick="burger(this)">
+    <div class="burger1"></div>
+    <div class="burger2"></div>
+    <div class="burger3"></div>
+</div>    
+</div>
+   
+</header>
+
+
+ 
+<div class="modal-background" id="modal">
+<div class="modal">
+    <span class="modal-times" onclick="myTimes()">&times;</span>
+    <div class="modal-container">
+   
+        <div class="modal-facebook">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <a href="#"> Facebook</a>
+        </div>
+       <div class="modal-instagram">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+          <a href="#">instagrami</a>
+       </div>
+
+        <div class="modal-phone">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <a href="#"> +995579444751</a>
+        </div>
+      
+    
+    </div>  
+   
+    
+</div>
+</div> 
+  
+<!---------------------------- messanger ------------------------------------------------------>
+
+
+ <div class="chat-messenger-logo " id="mymessanger">
+    <i class="fa fa-comments" aria-hidden="true"></i>
+
+</div>
+
+<div class="container-mesenger "  id="mychat">
+   <div class="heder-mesanger">
+       
+    <div class="messanger-myimg">
+        <img src="img/myimg.jpg" alt="">
+    </div>
+       <div class="messanger-icon">
+        <i class="fa fa-arrows-h" aria-hidden="true"></i>
+       </div>
+ 
+   <div class="messanger-gmail">
+    <img src="img/gmail.png" alt="img">
+</div>
+   </div>
+
+
+
+<div class="input-container">
+    <form id="form"  onsubmit = "sendEmail(); reset(); return false;" >
+        
+        <div class="mesenger-name">
+            <input type="text" placeholder="name" id="inputText">
+        </div>
+        <div class="messenger-emeil">
+            <input type="email"  placeholder="email addres" id="inputEmail">
+        </div>
+        <div class="massenger-textera">
+            <textarea placeholder="messange...." id="textarea"></textarea>
+        </div>
+        <div class="massanger-button">
+            <button name="submit" type="submit" id="submit">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </button>
+        </div>
+    </form>
+</div>
+
+
+
+</div> 
+
+<!-- -------------------section Portfolio================================== -->
+<section id="Portfolio">
+
+  <div class="myContacta"> 
+    
+      <div class="divContacta"  >
+       
+         <div class="myimg">
+            <img src="img/myimg.jpg" alt="img">
+        </div> 
+         <div class="name"> 
+             <h2>Saba maisuradze</h2>
+        </div>
+     
+        <div class="contaqt">
+           <h2> My Contaqt</h2>
+        </div>
+         
+
+
+
+        <div class="section-icon-contaqt">
+     
+            <div class="container-icon">
+              <a href="#"><i id="color1" class="fa fa-facebook" aria-hidden="true"></i></a>  
+            </div>
+
+
+
+            <div class="container-icon">
+              <a href=""><i id="color2" class="fa fa-instagram" aria-hidden="true"></i></a>    
+            </div>
+
+            <div class="container-icon" id="mypone">
+               <dvi><i id="color4" class="fa fa-phone" aria-hidden="true"></i></a></dvi>
+               <div class="number"  id="myNumber" > 
+                <h3>saba maisuradze</h3>
+                <div> 579444751</div>
+               </div>
+            </div>
+    </div>
+
+     <div class="communcation">
+        <h2>Communication</h2>
+    </div>
+    
+    <div class="bar-container">
+        <div class="bar bar2">99%</div> 
+    </div>
+    
+    </div> 
+     
+
+
+</div>  
+
+
+
+<!-- --------------------------------------------------------------- -->
+  <div class="portfolio-section">
+
+
+
+  <div class="dark-day">
+
+    <div >
+        <input type="checkbox" id="checkbox" class="checkbox">
+        <label for="checkbox" class="lable">
+            <i id="dark" class="fa fa-moon-o" aria-hidden="true"></i>
+            <i  id="day" class="fa fa-sun-o" aria-hidden="true"></i>
+          
+            <div class="boll"></div>
+        </label>
+ 
+      
+    </div> 
+
+
+    <div class="dark-day-icon">
+        <i class="fa fa-certificate" aria-hidden="true"></i>
+     </div>
+ </div>
+
+
+
+
+
+
+    <div class="myimg2" id="myImg2"><img src="img/myimg2.jpg" alt=""></div>
+
+<div class="portfolio-container">
+   
+
+    <div id="myName"></div>
+        <div class="text-section">
+            <span class="first-text" >A am a</span>
+            <span class="second-text" ></span>
+        </div> 
+    <div class="live">I live in <span>Georgia</span></div>
+    <div class="paragraf">
+        <h2>this is my official portfolio website to sheowcase all my works related to web development</h2>
+    </div>
+     <div class="button-contact" onclick="myModal()">
+         <button>My Contact</button>
+     </div>
+ </div> 
+
+</div>  
+</section>
+<!-- ================================================ -->
+
+ <div class="top" id="top" onclick="box()">
+    <div class="top-container">
+        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </div>
+</div>
+ 
+
+
+<!-- --------------------------------- about me ========================== -->
+
+<section class="about" id="About">
+ <div class="about-me">
+<h2>About Me</h2>
+</div>
+ <div class="caruseli-container">
+ <div class="carusel" id="carusel" >
+
+<div class="carusel-img my-img" >
+    <div class="carusel-myimg">
+      <img src="img/myimg2.jpg" alt="img">
+    </div>
+    <div class="carusel-aboutme">
+     <h2 class="h2-my">Hello, my name is Saba, I am 22 years old,</h2>
+     <h2>My portfolio will describe everything about me,
+          what I can do, what I do and so on</h2>
+     </div> 
+     </div>
+
+
+  <div class="carusel-img myuniviersit">
+
+ <div class="carusel-myuniversiti">
+<div class="optika"></div>
+ <img src="img/gepei.jpg" alt="img">
+<div class="carusel-gerb">
+<img src="img/gerbi.jpg" alt="img">
+ </div>
+</div>
+<div class="universiti">
+ <h2>Georgian Technical University</h2>
+ <div class="universiti-cntainer">
+ <h2>This is my university Georgian Technical University, I am studying programming I am in III courses</h2>
+    </div>
+ </div>
+            
+</div>
+
+
+
+
+
+ <div class="carusel-img">
+<div class="carusel-myprofession">
+    <img src="img/programing.jpg" alt="img">
+ <div class="myproppesion">
+<h2> My profession</h2>
+ </div>
+<div class="myprofession-container">
+<h2>My profession is programming, because I have liked this field since childhood,
+    I was interested and over time I became more and more interested in learning programming, 
+    currently learning programming.</h2>
+</div>
+ </div>
+ </div>
+<div class="carusel-img ">
+ <img src="img/font-end.jpg" alt="img">
+ </div>
+ </div>
+ <div class="carusel-btn">
+    <button id="btn-back"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+    <button id="btn-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+ </div>
+</div> 
+</section>
+
+
+<!-- ========== my skills======================================= -->
+
+<section class="section-myskills" id="Skills">
+    <div class="title-myskills">
+        <h2>My skills</h2>
+    </div>
+ <div class="skills-works-lenguage-container">
+
+ <div class="skill-container"> 
+<div class="progrming-lenguage-title"><h2>Front-end</h2></div>
+ <div class="myskill">
+    <div class="html"><h2> html </h2></div>
+  <div class="html-css-js">
+    <div class="html-procent" ><h2 >95%</h2> </div>      
+  </div>
+</div>
+
+<div class="myskill">
+    <div class="html"><h2> css </h2></div>
+<div class="html-css-js">
+    <div class="css-procent"><h2 >90%</h2></div>
+</div>
+</div>
+
+<div class="myskill">
+    <div class="html"><h2> javascript</h2></div>
+<div class="html-css-js">
+    <div class="js-procent" ><h2 >50%</h2></div>
+</div>
+</div>
+
+</div> 
+
+
+
+<!-- -----------------------lenguage------------------------------------- -->
+ <div class="skill-container">
+ <div class="progrming-lenguage-title"><h2>lenguage</h2> </div>
+
+ <div class="myskill">
+    <div class="html"><h2>Georgian</h2></div>
+<div class="html-css-js">
+     <div class="georgia-procent" ><h2 >100%</h2></div>
+    </div>
+    </div>
+    
+<div class="myskill">
+    <div class="html"><h2> English</h2> </div>
+<div class="html-css-js">
+      <div class="english-procent" ><h2 >50%</h2></div>
+    </div>
+    </div>
+    </div> 
+
+<!-- ---------------------------works------------------------------------ -->
+ <div class="works">
+
+<div class="my-works"><h2>my works</h2></div>
+
+<a href="https://github.com/Saba-Maisa/Online-Shop">link</a>
+
+</div>
+
+</div> 
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+<div class="footer-navigation">
+    <nav>
+      <ul class="futer-ul">
+         <li> <a class="a-list" href="#"> <i class="fa fa-home" aria-hidden="true"></i>  My Portfolio</a></li>
+         <li><a class="a-list"  href="#"> <i class="fa fa-user" aria-hidden="true"></i> About Me</a></li>
+         <li><a class="a-list"  href="#"> <i class="fa fa-laptop" aria-hidden="true"></i>  my skills</a></li>
+       </ul>
+    </nav>
+</div>
+
+<div class="footer">
+<div class="footer-img"> <img src="img/myimg.jpg" alt=""> </div>
+
+    <div class="footer-mytitle"> <h2>saba maisuradze</h2> </div>
+</div>
+<div class="footer-contaqt"> <h2>My Contaqt !</h2> </div>
+
+<div class="footer-container-icon">
+
+<div class="footer-icon footer-fb">
+    <a href="https://www.facebook.com/beqa.zedginidze"> 
+    <i class="fa fa-facebook" aria-hidden="true"></i></a> 
+</div>
+
+<div class="footer-icon footer-instagram ">
+       <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+</div>
+
+<div class="footer-icon footer-meil">
+  <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+</div>
+
+<div class="footer-icon footer-phon">
+    <a href="#"> <i  class="fa fa-phone" aria-hidden="true"></i></a>
+   </div>
+
+
+</div>
+
+</footer>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
