@@ -46,7 +46,7 @@ let index=0;
  const write1= () =>{
    myName.innerHTML=text.slice(0,index);
    index++;
-   if(index>text.length){
+   if(index > text.length){
    
    }
    setTimeout(write1,40);
